@@ -1,3 +1,5 @@
+
+
 // Star kilometer to Meter Calculation:
 
 function kilometerToMeter(kilometer) {
@@ -9,7 +11,7 @@ function kilometerToMeter(kilometer) {
         return 'Please Enter a Valid Input'
     }
 }
-console.log(kilometerToMeter(-2));
+console.log(kilometerToMeter(2));
 
 // End kilometer to Meter Calculation.
 
@@ -17,14 +19,14 @@ console.log(kilometerToMeter(-2));
 
 // Start Budget Calculation:
 
-function budgteCalculator(watch, phone, laptop) {
+function budgetCalculator(watch, phone, laptop) {
     var watchPrice = 50;
     var phonePrice = 100;
     var laptopPrice = 500;
     var total = (watchPrice * watch + phonePrice * phone + laptopPrice * laptop);
     return total;
 }
-console.log(budgteCalculator(2, 2,2));
+console.log(budgetCalculator(2, 2,2));
 // Start Budget Calculation.
 
 
@@ -82,4 +84,4 @@ function megaFriend(longestName)
 }
 console.log(megaFriend('Sayem, Shamim, Shakil, Abdullah, Ayan'));
 
-// Start Find the longest name from a string:
+// Start Find the longest name from a string.
